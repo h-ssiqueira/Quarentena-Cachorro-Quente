@@ -20,7 +20,7 @@ void gerar_pontos(Pontos **ponto, int *numeropedido, int *regiao_pont);
 
 int main(){
     system("color 0F");
-    
+
 	Pontos *Carrinhos = Cria_Ponto();
     int numero_menu, numero_pedido = 1, regiao_ponto = 1,
     experiencia, regiao, quantidade, aux, pedido, verificacao,opcao;

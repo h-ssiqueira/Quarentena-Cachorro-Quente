@@ -2,12 +2,12 @@
 void Muda_Cor (int cor)
 {
     /*
-    0 = Preto		6 = Amarelo		12 = Vermelho Claro	
-    1 = Azul		7 = Branco		13 = Lilas	
+    0 = Preto		6 = Amarelo		12 = Vermelho Claro
+    1 = Azul		7 = Branco		13 = Lilas
     2 = Verde		8 = Cinza		14 = Amarelo Claro
     3 = Verde-Agua	9 = Azul Claro		15 = Branco Brilhante
-    4 = Vermelho	10 = Verde Claro		
-    5 = Roxo		11 = Verde-Agua Claro		
+    4 = Vermelho	10 = Verde Claro
+    5 = Roxo		11 = Verde-Agua Claro
     */
     HANDLE Saida;
     Saida = GetStdHandle(STD_OUTPUT_HANDLE);

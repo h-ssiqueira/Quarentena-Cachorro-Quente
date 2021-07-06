@@ -191,7 +191,7 @@ void imprime_nota_fila(Nof *aux){
     printf("\n\t");
     for(int i = 0; i < 60; i++)
         printf("-");
-	
+
     while(!Vazia_Itens(aux->Unidades)){
 		pop(aux->Unidades,&quantidade,&valor_item,&valor_total_item,desc,obs);
         printf("\n\t%s",desc);
@@ -199,12 +199,12 @@ void imprime_nota_fila(Nof *aux){
         if(strcmp(obs,"\0") != 0)
             printf("\n\t %s",obs);
     }
-	
+
     printf("\n\t");
     for(i = 0; i < 60; i++)
         printf("-");
     printf("\n\tTOTAL:\t\t\t\t\t\t%.2f\n",aux->valor_total_pedido);
-	
+
 }
 
 //impressão de pedidos em aberto (relatorio)

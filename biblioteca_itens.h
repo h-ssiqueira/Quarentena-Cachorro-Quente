@@ -4,7 +4,7 @@
 
 //pilha
 typedef struct nop{
-    char item[40], observacao[50]; 
+    char item[40], observacao[50];
     int quantidade;
     float valor_unidade, valor_total_tipo;
     struct nop *prox;
@@ -140,16 +140,16 @@ void impressao_relatorio_pilha(Nop *pilha){
 		for(i = 0; i < 15; i++)
 			printf(" ");
 		printf("%3d",aux->quantidade);
-		
+
 		for(i = 0; i < 13; i++)
 			printf(" ");
-		
+
 		printf("%6.2f",aux->valor_unidade);
-		
+
 		for(i = 0; i < 16; i++)
 			printf(" ");
-		
-		
+
+
 		printf("%6.2f %c",aux->valor_total_tipo,179);
 
         if(strcmp(aux->observacao,"\0") != 0){
