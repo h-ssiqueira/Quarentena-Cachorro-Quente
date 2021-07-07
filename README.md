@@ -1,4 +1,6 @@
 # Quarentena-Cachorro-Quente
+![GitHub Repository Size](https://img.shields.io/github/repo-size/h-ssiqueira/Quarentena-Cachorro-Quente?label=Repository%20Size&style=for-the-badge)
+
 ![Windows 10](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
