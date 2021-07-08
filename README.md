@@ -9,6 +9,31 @@
 ## Descrição do projeto
 [Projeto](erd_projeto.pdf) realizado para a disciplina de [Estrutura e Recuperação de Dados A](https://github.com/h-ssiqueira/ProgramsCOLLEGE#ERD-A), realizado no sistema operacional Windows 10 utilizando a IDE Code::Blocks. Sistema de gerenciamento de pedidos entre cinco diferentes pontos de venda de cachorro quente. Cada ponto de venda é representado por uma lista, dentro desta lista há as informações respectivas do ponto e uma fila representando os pedidos. Nesta fila além das informações do pedido, há uma pilha representando os itens do pedido.
 
+## Telas do programa:
+<p align="center">
+    <img src="https://github.com/h-ssiqueira/Quarentena-Cachorro-Quente/blob/master/imgs/tela.PNG" alter="tela">
+</p>
+
+<p align="center">
+    <img src="https://github.com/h-ssiqueira/Quarentena-Cachorro-Quente/blob/master/imgs/menu.png" alter="menu">
+</p>
+
+<p align="center">
+    <img src="https://github.com/h-ssiqueira/Quarentena-Cachorro-Quente/blob/master/imgs/nota%20fiscal.PNG" alter="nota fiscal">
+</p>
+
+<p align="center">
+    <img src="https://github.com/h-ssiqueira/Quarentena-Cachorro-Quente/blob/master/imgs/relatório%20pontos.PNG" alter="relatório pontos">
+</p>
+
+<p align="center">
+    <img src="https://github.com/h-ssiqueira/Quarentena-Cachorro-Quente/blob/master/imgs/relatório%20pedido.PNG" alter="relatório pedido">
+</p>
+
+<p align="center">
+    <img src="https://github.com/h-ssiqueira/Quarentena-Cachorro-Quente/blob/master/imgs/relatório%20itens.PNG" alter="relatório itens">
+</p>
+
 ## Execução do programa
 Para a execução do programa é necessário a utilização da IDE Code::Blocks. Ao iniciar, o programa possui uma tela inicial de carregamento e após a [animação](https://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=h_ssiqueira) o usuário é direcionado para o menu principal para realizar os pedidos. A cada pedido realizado é impressa uma nota fiscal com as respectivas informações do pedido. Ao final da execução do programa é impresso um relatório estatístico a respeito das vendas realizadas.
 
